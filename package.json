@@ -1,0 +1,27 @@
+{
+  "name": "websocket-chat",
+  "version": "0.0.1",
+  "description": "ejercicio de Coderhouse - creacion de un chat con websocket",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [
+    "socket.io",
+    "javasript",
+    "node",
+    "js",
+    "handlebars",
+    "websocket",
+    "chat"
+  ],
+  "author": "antonella gatti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2", 
+    "socket.io": "^4.7.2"
+  }
+}
